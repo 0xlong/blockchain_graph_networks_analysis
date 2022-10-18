@@ -1,10 +1,26 @@
 Blockchain Graph Networks Analysis
 ==============================
 
+
+Project description
+--------------------
 In this project blockchain networks will be analyzed using specific methodologies from network science.
 
-Project Organization
+
+How to start
 ------------
+
+
+
+
+
+
+
+
+
+
+Project Organization
+--------------------
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
@@ -45,8 +61,3 @@ Project Organization
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
-
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
