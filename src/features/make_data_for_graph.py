@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import networkx
 
 def unique_ads_list(json_data):
      
@@ -13,3 +14,11 @@ def unique_ads_list(json_data):
     full_unique_address_list = list(set(full_address_list))
 
     return full_unique_address_list
+
+
+def make_data_input_for_graph(json_data):
+     
+    #transform to pandas dataframe from json
+    json_to_dataframe = pd.DataFrame.from_dict(json_data)
+
+    return json_to_dataframe[['from','to']]
